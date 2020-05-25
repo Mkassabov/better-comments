@@ -250,6 +250,7 @@ export class Parser {
 			case "apex":
 			case "javascript":
 			case "javascriptreact":
+			case "reason":
 			case "typescript":
 			case "typescriptreact":
 				this.setCommentFormat("//", "/*", "*/");
