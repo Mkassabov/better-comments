@@ -6,15 +6,15 @@
     "version": "2.0.5",
     "publisher": "aaron-bond",
     "author": {
-        "name": "Aaron Bond"
+        "name": "Aaron Bond (fork by Michael Kassabov)"
     },
-    "homepage": "https://github.com/aaron-bond/better-comments/blob/master/README.md",
+    "homepage": "https://github.com/Mkassabov/better-comments/blob/master/README.md",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aaron-bond/better-comments"
+        "url": "https://github.com/Mkassabov/better-comments"
     },
-    "bugs": "https://github.com/aaron-bond/better-comments/issues",
+    "bugs": "https://github.com/Mkassabov/better-comments/issues",
     "categories": [
         "Formatters"
     ],
@@ -84,6 +84,8 @@
         "onLanguage:python",
         "onLanguage:r",
         "onLanguage:racket",
+		"onLanguage:reason",
+		"onLanguage:reason_lisp",
         "onLanguage:ruby",
         "onLanguage:rust",
         "onLanguage:scala",
