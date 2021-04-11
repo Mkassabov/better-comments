@@ -125,7 +125,7 @@ export class Parser {
 		
 		let text = activeEditor.document.getText();
 
-		// Build up regex matcher for custom delimter tags
+		// Build up regex matcher for custom delimiter tags
 		let characters: Array<string> = [];
 		for (let commentTag of this.tags) {
 			characters.push(commentTag.escapedTag);
@@ -180,7 +180,7 @@ export class Parser {
 
 		let text = activeEditor.document.getText();
 
-		// Build up regex matcher for custom delimter tags
+		// Build up regex matcher for custom delimiter tags
 		let characters: Array<string> = [];
 		for (let commentTag of this.tags) {
 			characters.push(commentTag.escapedTag);
@@ -279,6 +279,7 @@ export class Parser {
 			case "scss":
 			case "stylus":
 			case "swift":
+      case "svelte":
 			case "verilog":
 			case "vue":
 				this.setCommentFormat("//", "/*", "*/");
@@ -396,7 +397,7 @@ export class Parser {
 			case "plaintext":
 				this.isPlainText = true;
 
-				// If highlight plaintext is enabeld, this is a supported language
+				// If highlight plaintext is enabled, this is a supported language
 				this.supportedLanguage = this.contributions.highlightPlainText;
 				break;
 
